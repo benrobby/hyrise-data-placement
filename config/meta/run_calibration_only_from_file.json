@@ -1,0 +1,7 @@
+{
+    "default_config_path": "./config/meta/defaults.json",
+    "run_calibration": false,
+    "run_benchmarks": false,
+    "umap_buf_size_bytes": 25000000,
+    "calibration_file": "./output_saved/2022-04-30T213003/calibration/calibration_results.csv"
+}

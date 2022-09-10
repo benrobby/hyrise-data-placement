@@ -1,0 +1,64 @@
+[
+    {
+        "id": 0,
+        "sorted_id": 0,
+        "benchmark_name": "TPCH",
+        "scale_factor": 10.0,
+        "scale_factor_multiplier": 1.0,
+        "optimization_method": "knapsack",
+        "num_clients": 8,
+        "num_cores": 24,
+        "benchmark_queries": [
+            "*"
+        ],
+        "benchmark_queries_to_run": [
+            "*"
+        ],
+        "devices": [
+            {
+                "device_name": "DRAM",
+                "capacity_GB": 0.0,
+                "id": 0,
+                "dollar_cents_per_GB": 643.0,
+                "discrete_capacity_option_bytes": [],
+                "calibration_id": null
+            },
+            {
+                "device_name": "/mnt/md0/Ben.Hurdelhey/mrcl",
+                "capacity_GB": 12.0,
+                "id": 1,
+                "dollar_cents_per_GB": 21.0,
+                "discrete_capacity_option_bytes": [],
+                "calibration_id": null
+            },
+            {
+                "device_name": "UNUSED",
+                "capacity_GB": 0.0,
+                "id": 3,
+                "dollar_cents_per_GB": 4.0,
+                "discrete_capacity_option_bytes": [],
+                "calibration_id": 3
+            },
+            {
+                "device_name": "/mnt/optane_ssd/Ben.Hurdelhey/mrcl",
+                "capacity_GB": 2.0,
+                "id": 2,
+                "dollar_cents_per_GB": 284.0,
+                "discrete_capacity_option_bytes": [],
+                "calibration_id": null
+            }
+        ],
+        "evaluation_benchmark_runs": 1,
+        "evaluation_benchmark_time_s": 2000.0,
+        "shuffle_queries": true,
+        "tiering_config_to_use": null,
+        "calibration_data_to_use": null,
+        "cost_model": "COST_MODEL_4",
+        "dollar_budget_cents": 1.0,
+        "runtime_budget_seconds": 0.0,
+        "runtime_percentage": 1.0,
+        "objective_mode": "DEVICE_BUDGET",
+        "meta_segments_sf": 1,
+        "encoding": "Dictionary"
+    }
+]

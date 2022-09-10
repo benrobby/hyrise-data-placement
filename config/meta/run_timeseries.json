@@ -1,0 +1,8 @@
+{
+    "default_config_path": "./config/meta/defaults.json",
+    "run_benchmarks_mode": "timeseries",
+    "tiering_timeseries_config_update_wait_time_s": 300,
+    "tiering_apply_configuration": true,
+    "run_benchmarks": true,
+    "run_calibration": false
+}

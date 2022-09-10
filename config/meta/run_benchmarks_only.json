@@ -1,0 +1,5 @@
+{
+    "default_config_path": "./config/meta/defaults.json",
+    "run_calibration": false,
+    "run_benchmarks": true
+}

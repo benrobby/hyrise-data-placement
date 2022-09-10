@@ -1,0 +1,10 @@
+{
+    "default_config_path": "./config/meta/defaults.json",
+    "run_benchmarks": false,
+    "run_calibration": true,
+    "calibration_scale_factor": 0.1,
+    "calibration_benchmark_min_time_seconds": 0.01,
+    "calibration_random_data_size_per_device_mb": 10,
+    "calibration_monotonic_access_stride": 3,
+    "umap_buf_size_bytes": 25000000
+}
