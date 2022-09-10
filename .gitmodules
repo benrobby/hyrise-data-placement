@@ -1,0 +1,6 @@
+[submodule "umap"]
+	path = umap
+	url = git@github.com:benrobby/umap.git
+[submodule "tiering_selection_plugin"]
+	path = tiering_selection_plugin
+	url = git@github.com:benrobby/tiering_selection_plugin.git

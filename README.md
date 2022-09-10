@@ -1,6 +1,6 @@
  Workload-Driven Data Placement for Capacity-Constrained Multi-Tier In-Memory Database Systems
 
-License: None
+
 
 ## Setup
 - git submodule update --init
@@ -41,3 +41,7 @@ License: None
 - create folder with chmod 777
 - add to umap_jemalloc_memory_resource and recompile
 - sudo sysctl -w vm.unprivileged_userfaultfd=1 if umap uffd doesn't work
+
+License: None
+
+tiering_selection_plugin/workload_handler.(cpp|hpp) from https://github.com/Bouncner/encoding_selection_plugin/blob/main/workload_handler.cpp
