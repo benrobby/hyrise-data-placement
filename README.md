@@ -46,7 +46,7 @@ Choosing the degree of recency is subject to the following general trade-off. On
 - sudo dmsetup remove nvme1n1-latency1ms
 - sudo mount /dev/nvme1n1 /mnt/single_ssd
 
-## fio measurements
+## fio
 This measures the device's bandwidth and latency.
 - fio --name FIO-LATENCY --filename=f --rw=randread --size=1000m --blocksize=4k --iodepth=1 --direct=1 --numjobs=1 --runtime=60 --group_reporting --time_based --thread --refill_buffers
 - fio --name FIO-BANDWIDTH --filename=f --rw=read --size=1000m --blocksize=128k --iodepth=64 --direct=1 --numjobs=64 --runtime=60 --group_reporting --time_based --thread --refill_buffers
