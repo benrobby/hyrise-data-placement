@@ -47,8 +47,8 @@ Choosing the degree of recency is subject to the following general trade-off. On
 - sudo mount /dev/nvme1n1 /mnt/single_ssd
 
 ## fio device bandwidth / latency measurements
-- sudo fio --name FIO-LATENCY --eta-newline=5s --filename=fio-tempfile.dat --rw=randread --size=2000m --blocksize=4k --iodepth=1 --direct=1 --numjobs=1 --runtime=30 --group_reporting --time_based --thread --refill_buffers
-- sudo fio --name FIO-BANDWIDTH --eta-newline=5s --filename=fio-tempfile.dat --rw=read --size=500m --io_size=10g --blocksize=128k --iodepth=64 --direct=1 --numjobs=64 --runtime=30 --group_reporting --time_based --thread --refill_buffers
+- fio --name FIO-LATENCY --filename=f --rw=randread --size=1000m --blocksize=4k --iodepth=1 --direct=1 --numjobs=1 --runtime=60 --group_reporting --time_based --thread --refill_buffers
+- fio --name FIO-BANDWIDTH --filename=f --rw=read --size=1000m --blocksize=128k --iodepth=64 --direct=1 --numjobs=64 --runtime=60 --group_reporting --time_based --thread --refill_buffers
 
 ## add new tiering device
 - mount it
